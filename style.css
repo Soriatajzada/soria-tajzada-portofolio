@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.s-logo-img {
+    width: 5%;
+    margin: 10px 10px;
+}
+.home-page {
+    background: url(./images/background-logo.png) no-repeat rgba(0,0,0,0.4) ;
+    background-size: 100%;
+}
+.home-page .container {
+    padding: 0;
+}
+.home-info{
+    background:  rgba(0,0,0,0.4);  
+    height: 700px;
+    padding: 0;
+    padding-left: 30px;
+    
+}
+.home-info h1 {
+    font-size: 40px;
+    margin-top: 260px;
+    margin-bottom: 20px;
+}
+
+.home-info p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.home-info a {
+    text-decoration: none;
+}
+
+.home-info a button {
+    border: none;
+    background: rgb(139, 0, 139);
+    width: 150px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+main,
+footer {
+    background-color: rgb(41, 4, 39);
+}
+
+.skills-title {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 50px;
+}
+
+.skills-info01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-left: 50px;
+}
+
+.skills-info {
+    text-align: center;
+    background-color: rgba(51, 51, 51,0.5);
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.skills-info img {
+    width: 90px;
+    height: 90px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.skills-info p {
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.skills-info h1 {
+    font-size: 40px;
+}
+
+.project-page {
+    text-align: center;
+    margin-top: 150px;
+    
+    height: 1400px;
+}
+.project-page h1 {
+    margin: 0 0 80px 0 ;
+    font-size: 50px;
+}
+
+.project-1 {
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    background: url(./images/project-1.png) no-repeat;
+    background-size: 100%;
+    margin: 30px 0;
+}
+
+.project-2 {
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 50px 0 50px 280px;
+    background: url(./images/project-2.png) no-repeat;
+    background-size: 100%;
+}
+
+.project-3 {
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 30px 0;
+    background: url(./images/project-3.png) no-repeat;
+    background-size: 100%;
+}
+
+.contact-page {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 20px;
+    text-align: center;
+}
+
+.contact-photo {
+    width: 20%;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 50px;
+    margin: -120px 0 50px 0;
+}
+
+.contact-me h1 {
+    font-size: 40px;
+    margin: 50px 0;
+}
+.contact-me p {
+    font-size: 30px;
+    
+}
